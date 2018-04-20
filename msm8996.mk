@@ -141,8 +141,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service \
-    camera.msm8996 \
-    libmm-qcamera
+    libshim_MiCamera
 
 # CNE
 PRODUCT_PACKAGES += \
