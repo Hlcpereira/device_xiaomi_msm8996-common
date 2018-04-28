@@ -62,6 +62,9 @@ ro.qcom.ad.sensortype=2
 # DRM
 drm.service.enabled=true
 
+# EAS
+ro.hardware.power=msm8996
+
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
 
