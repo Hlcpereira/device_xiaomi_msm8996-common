@@ -143,6 +143,8 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-service \
     libshim_MiCamera
 
+$(call inherit-product, vendor/xiaomi/MiuiCamera/config.mk)
+
 # CNE
 PRODUCT_PACKAGES += \
     libcnefeatureconfig
