@@ -144,6 +144,14 @@ TARGET_EXFAT_DRIVER := sdfat
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(VENDOR_PATH)/config.fs
 
+# HALs
+USE_DEVICE_SPECIFIC_AUDIO := true
+USE_DEVICE_SPECIFIC_DISPLAY := true
+USE_DEVICE_SPECIFIC_MEDIA := true
+DEVICE_SPECIFIC_AUDIO_PATH := hardware/qcom/audio-caf/msm8998
+DEVICE_SPECIFIC_DISPLAY_PATH := hardware/qcom/display-caf/msm8998
+DEVICE_SPECIFIC_MEDIA_PATH := hardware/qcom/media-caf/msm8998
+
 # HIDL
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := $(VENDOR_PATH)/vendor_framework_compatibility_matrix.xml
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(VENDOR_PATH)/framework_manifest.xml
